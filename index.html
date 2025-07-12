@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Közös játékaink</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: black;
+      color: white;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      height: 100vh;
+    }
+
+    h1 {
+      font-size: 50px;
+      margin-bottom: 20px;
+    }
+
+    .game {
+      margin: 20px;
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+    }
+
+    .game img {
+      width: 250px;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .game p {
+      font-size: 20px;
+      position: absolute;
+      bottom: 10px;
+      width: 100%;
+      text-align: center;
+      font-weight: bold;
+      color: white;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Közös játékaink</h1>
+
+  <!-- Memóriajáték és Khmmm képek -->
+  <div class="game" onclick="window.location.href='https://pixelzone.github.io/us/'">
+    <img src="memóriajáték.jpg" alt="Memóriájáték">
+    <p>Memóriajáték</p>
+  </div>
+
+  <div class="game" onclick="window.location.href='https://pixelzone200.github.io/khmmm/'">
+    <img src="khmmm.jpg" alt="Khmmm">
+    <p>Khmmm</p>
+  </div>
+
+</body>
+</html>
